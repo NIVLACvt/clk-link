@@ -11,19 +11,74 @@
             }
 
             h1 {
-                color: #6f00ff;
+                color: #0084ff;
             }
 
-            p, #pink {
-                color:#b763dd
+            .pink {
+                color:#b763dd;
             }
+
+            .btn {
+                background-color: #00ff88;
+                color: rgb(0, 0, 0);
+                border: 2px solid #b763dd;
+                font-size: 24px;
+                padding: 14px 18px;
+                width: 256px;
+                height: 64px;
+                margin: 4px;
+                border-radius: 6px;
+                transform: translateY(0); /* Normal state */
+                color: #b763dd;
+                font-weight: bold;
+            }
+
+            .btn:hover {
+                transform: scale(1.1);
+            }
+
+            .btn:active {
+                transform: translateY(5px);
+            }
+
         </style>
     </head>
     <body>
         <h1>This is a link to all the other websites I have made</h1>
 
-        <p>This is a link to my website about <a id="pink" href="https://nivlacvt.github.io/game-rules/">minecraft public server rules</a> and how I think the rules should be on a public minecraft server</p>
-        <p>This is a link to my website about the <a id="pink" href="https://nivlacvt.github.io/Artemis_2_timeline-html/">Artemis 2 landing timeline</a></p>
-        <p>This is a website to view <a id="pink" href="https://nivlacvt.github.io/sheets-view/">google sheets(in table form)</a></p>
+        <br>
+        <button class="btn" onclick="goToLink1()">Click This Button</button> 
+        <br>
+        <h2 class="pink">to view what I think the rules should be on a public minecraft server</h2>
+
+        <br>
+        <button class="btn" onclick="goToLink2()">Click This Button</button>
+        <br>
+        <h2 class="pink">To view my website about the Artemis 2 landing timeline</a></h2>
+
+        <br>
+        <button class="btn" onclick="goToLink3()">Click This Button</button>
+        <br>
+        <h2 class="pink">To view this website to view google sheets(in table form)</a></h2>
+
+        <br>
+        <button class="btn" onclick="goToLink4()">Click This Button</button>
+        <br>
+        <h2 class="pink">To view my web calculater</h2>
+
+        <script>
+            function goToLink1() {
+                window.location.href = "https://nivlacvt.github.io/game-rules/";
+            }
+            function goToLink2() {
+                window.location.href = "https://nivlacvt.github.io/Artemis_2_timeline-html/";
+            }
+            function goToLink3() {
+                window.location.href = "https://nivlacvt.github.io/sheets-view/";
+            }
+            function goToLink4() {
+                window.location.href = "https://nivlacvt.github.io/web-calculater/";
+            }
+        </script>
     </body>
 </html>
