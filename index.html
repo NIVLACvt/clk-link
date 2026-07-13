@@ -14,8 +14,8 @@
                 color: #0084ff;
             }
 
-            .pink {
-                color:#b763dd;
+            #P-M-S-R, #A-2-L-T, #G-S-V, #W-C, #R-P-S {
+                color: #ff00ff;
             }
 
             .btn {
@@ -44,40 +44,59 @@
         </style>
     </head>
     <body>
+
         <h1>This is a link to all the other websites I have made</h1>
 
-        <br>
-        <button class="btn" onclick="goToLink1()">Click This Button</button> 
-        <br>
-        <h2 class="pink">to view what I think the rules should be on a public minecraft server</h2>
+        <div id="P-M-S-R">
+            <br>
+            <button class="btn" onclick="goToLink1()">Click This Button</button> 
+            <br>
+            <h2>to view what I think the rules should be on a public minecraft server</h2>
+        </div>
+        
+        <div id="A-2-L-T">
+            <br>
+            <button class="btn" onclick="goToLink2()">Click This Button</button>
+            <br>
+            <h2>To view my website about the Artemis 2 landing timeline</h2>
+        </div>
 
-        <br>
-        <button class="btn" onclick="goToLink2()">Click This Button</button>
-        <br>
-        <h2 class="pink">To view my website about the Artemis 2 landing timeline</a></h2>
+        <div id="G-S-V">
+            <br>
+            <button class="btn" onclick="goToLink3()">Click This Button</button>
+            <br>
+            <h2>To view this website to view google sheets(in table form)</a></h2>
+        </div>
 
-        <br>
-        <button class="btn" onclick="goToLink3()">Click This Button</button>
-        <br>
-        <h2 class="pink">To view this website to view google sheets(in table form)</a></h2>
+        <div id="W-C">
+            <br>
+            <button class="btn" onclick="goToLink4()">Click This Button</button>
+            <br>
+            <h2>To use my web calculater</h2>
+        </div>
 
-        <br>
-        <button class="btn" onclick="goToLink4()">Click This Button</button>
-        <br>
-        <h2 class="pink">To view my web calculater</h2>
+        <div id="R-P-S">
+            <br>
+            <button class="btn" onclick="goToLink5()">Click This Button</button>
+            <br>
+            <h2>To play rock paper scissors</h2>
+        </div>
 
         <script>
             function goToLink1() {
-                window.location.href = "https://nivlacvt.github.io/game-rules/";
+                window.open("https://nivlacvt.github.io/game-rules/", "_blank");
             }
             function goToLink2() {
-                window.location.href = "https://nivlacvt.github.io/Artemis_2_timeline-html/";
+                window.open("https://nivlacvt.github.io/Artemis_2_timeline-html/", "_blank");
             }
             function goToLink3() {
-                window.location.href = "https://nivlacvt.github.io/sheets-view/";
+                window.open("https://nivlacvt.github.io/sheets-view/", "_blank");
             }
             function goToLink4() {
-                window.location.href = "https://nivlacvt.github.io/web-calculater/";
+                window.open("https://nivlacvt.github.io/web-calculater/", "_blank");
+            }
+            function goToLink5() {
+                window.open("https://nivlacvt.github.io/rock-paper-scissors/", "_blank");
             }
         </script>
     </body>
