@@ -4,8 +4,6 @@ This is a website link to all my other websites that I've made and posted on the
 here is the link to view the website:
 <br>
 https://nivlacvt.github.io/clk-link/
-<br>
-Here is a sneak peak:
 
 I hope you like it!!!
 </b>
