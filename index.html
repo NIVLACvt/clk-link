@@ -25,12 +25,19 @@
                 font-size: 24px;
                 padding: 14px 18px;
                 width: 256px;
-                height: 64px;
+                height: 80px;
                 margin: 4px;
                 border-radius: 6px;
                 transform: translateY(0); /* Normal state */
                 color: #b763dd;
                 font-weight: bold;
+            }
+
+            .oneline {
+            display: inline-block;
+            margin-right: 15px;
+            font-weight: bolder;
+            color: rgb(174, 0, 255);
             }
 
             .btn:hover {
@@ -47,39 +54,44 @@
 
         <h1>This is a link to all the other websites I have made</h1>
 
-        <div id="P-M-S-R">
-            <br>
-            <button class="btn" onclick="goToLink1()">Click This Button</button> 
+        <div id="P-M-S-R" class="oneline">
             <br>
             <h2>to view what I think the rules should be on a public minecraft server</h2>
+            <br>
+            <button class="btn" onclick="goToLink1()">Public Minecraft Server Rules</button> 
+            <br>
         </div>
         
-        <div id="A-2-L-T">
-            <br>
-            <button class="btn" onclick="goToLink2()">Click This Button</button>
+        <div id="A-2-L-T" class="oneline">
             <br>
             <h2>To view my website about the Artemis 2 landing timeline</h2>
+            <br>
+            <button class="btn" onclick="goToLink2()">Artemis 2 Timeline</button>
+            <br>
         </div>
 
-        <div id="G-S-V">
+        <div id="G-S-V" class="oneline">
             <br>
-            <button class="btn" onclick="goToLink3()">Click This Button</button>
+            <h2>To view this website to view google sheets(in table form)</h2>
             <br>
-            <h2>To view this website to view google sheets(in table form)</a></h2>
+            <button class="btn" onclick="goToLink3()">Google Sheets Viewer</button>
+            <br>
         </div>
 
-        <div id="W-C">
+        <div id="W-C" class="oneline">
             <br>
-            <button class="btn" onclick="goToLink4()">Click This Button</button>
+            <h2>To use my web calculator</h2>
             <br>
-            <h2>To use my web calculater</h2>
+            <button class="btn" onclick="goToLink4()">Web Calculator</button>
+            <br>
         </div>
 
-        <div id="R-P-S">
-            <br>
-            <button class="btn" onclick="goToLink5()">Click This Button</button>
+        <div id="R-P-S" class="oneline">
             <br>
             <h2>To play rock paper scissors</h2>
+            <br>
+            <button class="btn" onclick="goToLink5()">Rock Paper Scissors</button>
+            <br>
         </div>
 
         <script>
