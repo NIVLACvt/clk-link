@@ -14,7 +14,7 @@
                 color: #0084ff;
             }
 
-            #P-M-S-R, #A-2-L-T, #G-S-V, #W-C, #R-P-S {
+            .pink{
                 color: #ff00ff;
             }
 
@@ -34,10 +34,10 @@
             }
 
             .oneline {
-            display: inline-block;
-            margin-right: 15px;
-            font-weight: bolder;
-            color: rgb(174, 0, 255);
+                display: inline-block;
+                margin-right: 15px;
+                font-weight: bolder;
+                color: rgb(174, 0, 255);
             }
 
             .btn:hover {
@@ -56,15 +56,15 @@
 
         <div id="P-M-S-R" class="oneline">
             <br>
-            <h2>to view what I think the rules should be on a public minecraft server</h2>
+            <h2 class="pink">Click the button below<br>to view what I think the rules<br>should be on a public minecraft server</h2>
             <br>
             <button class="btn" onclick="goToLink1()">Public Minecraft Server Rules</button> 
             <br>
         </div>
-        
+
         <div id="A-2-L-T" class="oneline">
             <br>
-            <h2>To view my website about the Artemis 2 landing timeline</h2>
+            <h2 class="pink">Click the button below<br>to view my website about<br>the Artemis 2 landing timeline</h2>
             <br>
             <button class="btn" onclick="goToLink2()">Artemis 2 Timeline</button>
             <br>
@@ -72,7 +72,7 @@
 
         <div id="G-S-V" class="oneline">
             <br>
-            <h2>To view this website to view google sheets(in table form)</h2>
+            <h2 class="pink">Click the button below<br>to view my website for<br>viewing google sheets(in table form)</h2>
             <br>
             <button class="btn" onclick="goToLink3()">Google Sheets Viewer</button>
             <br>
@@ -80,7 +80,7 @@
 
         <div id="W-C" class="oneline">
             <br>
-            <h2>To use my web calculator</h2>
+            <h2 class="pink">Click the button below<br>to use my web calculator</h2>
             <br>
             <button class="btn" onclick="goToLink4()">Web Calculator</button>
             <br>
@@ -88,27 +88,38 @@
 
         <div id="R-P-S" class="oneline">
             <br>
-            <h2>To play rock paper scissors</h2>
+            <h2 class="pink">Click the button below<br>to play rock paper scissors</h2>
             <br>
             <button class="btn" onclick="goToLink5()">Rock Paper Scissors</button>
             <br>
         </div>
 
+        <div id="W-L" class="oneline">
+            <br>
+            <h2 class="pink">Click the button below<br>to view my job time<br>logging website</h2>
+            <br>
+            <button class="btn" onclick="goToLink6()">Job Time Logger</button>
+            <br>
+        </div>
+
         <script>
             function goToLink1() {
-                window.open("https://nivlacvt.github.io/game-rules/", "_blank");
+                window.open("https://nivlacvt.github.io/game-rules/");
             }
             function goToLink2() {
-                window.open("https://nivlacvt.github.io/Artemis_2_timeline-html/", "_blank");
+                window.open("https://nivlacvt.github.io/Artemis_2_timeline-html/");
             }
             function goToLink3() {
-                window.open("https://nivlacvt.github.io/sheets-view/", "_blank");
+                window.open("https://nivlacvt.github.io/sheets-view/");
             }
             function goToLink4() {
-                window.open("https://nivlacvt.github.io/web-calculater/", "_blank");
+                window.open("https://nivlacvt.github.io/web-calculater/");
             }
             function goToLink5() {
-                window.open("https://nivlacvt.github.io/rock-paper-scissors/", "_blank");
+                window.open("https://nivlacvt.github.io/rock-paper-scissors/");
+            }
+            function goToLink6() {
+                window.open("https://nivlacvt.github.io/job_time-tracker/");
             }
         </script>
     </body>
